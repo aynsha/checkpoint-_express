@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet', href='/stylesheets/contact.css')
+        title Document
+    body
+    include ./navbar.pug
+    div.slide-bar
+     h1 Nous Contactez
+    div.form
+     form
+      input(placeholder="Nom")
+      input(placeholder="Prenom")
+      input(placeholder="Email")
+      br
+      textarea(placeholder="Votre message ici...")
+      button Envoyer 
+    include ./footer.pug
